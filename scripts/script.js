@@ -1,5 +1,5 @@
 //Abrir o mockup local com fetch
-fetch('./mockup.json')
+fetch('../mockup.json')
 .then(resposta => resposta.json())
 .then(dados => {
     //Preencher os campos do formulário com os dados do mockup
